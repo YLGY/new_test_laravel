@@ -11,13 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome', ['website' => 'Laravel Test']);
-});
-Route::get('home', function () {
-    return 'Home';
-});
-
-Route::get('test', function () {
-    return 'test';
-});
+Route::get('/', 'StaticPagesController@home');
+Route::get('/help', 'StaticPagesController@help');
+Route::get('/about', 'StaticPagesController@about');
