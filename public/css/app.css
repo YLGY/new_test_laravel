@@ -10504,6 +10504,10 @@ a.text-dark:focus {
   margin: 1rem;
 }
 
+.form__footer {
+  padding: 0 1rem;
+}
+
 .form__submit {
   margin: 1rem;
   padding: 5px 10px;
@@ -10534,5 +10538,13 @@ a.text-dark:focus {
           transform: translateY(-2px);
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+#logou {
+  cursor: default;
+}
+
+#logou:hover {
+  background-color: transparent;
 }
 
