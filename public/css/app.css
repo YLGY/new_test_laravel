@@ -10450,3 +10450,89 @@ a.text-dark:focus {
   border-bottom: 1px solid black;
 }
 
+.user_info {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.user_info h1 {
+  font-size: 1.4rem;
+}
+
+.user_info .gravatar {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.form {
+  width: 25rem;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.form__header {
+  background: grey;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.form__group {
+  padding: .5rem 1rem;
+}
+
+.form__group label {
+  margin-bottom: .3rem;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+}
+
+.form__alert {
+  margin: 1rem;
+}
+
+.form__submit {
+  margin: 1rem;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background: blue;
+  color: #cccccc;
+  font-weight: 800;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.form__submit:hover {
+  color: blue;
+  background: #ccc;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.form__submit:active {
+  color: blue;
+  background: #ccc;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+}
+

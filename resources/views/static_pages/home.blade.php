@@ -10,7 +10,8 @@
             New start, keep fighting
         </p>
         <p>
-            <a href="#" class="btn btn-lg btn-success" role="button">Register</a>
+            <a href="{{ route('signup') }}" class="btn btn-lg btn-success" role="button">Register</a>
         </p>
     </div>
+
 @endsection
