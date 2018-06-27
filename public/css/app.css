@@ -10508,6 +10508,14 @@ a.text-dark:focus {
   padding: 0 1rem;
 }
 
+.form__avatar {
+  border-radius: 50%;
+  display: block;
+  width: 5rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
 .form__submit {
   margin: 1rem;
   padding: 5px 10px;
@@ -10546,5 +10554,28 @@ a.text-dark:focus {
 
 #logou:hover {
   background-color: transparent;
+}
+
+.list-container {
+  margin-top: 5rem;
+}
+
+.list__item {
+  list-style: none;
+  margin: 1rem 0;
+  border: 1px solid lightblue;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.list__gravatar {
+  border-radius: 50%;
+  width: 5rem;
+}
+
+.list__name {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
 }
 

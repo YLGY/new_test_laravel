@@ -8,7 +8,7 @@
                 <ul class="navbar-nav mr-auto">
                     @if (Auth::check())
                         <li>
-                            <a href="#">Users List</a>
+                            <a href="{{ route('users.index') }}">Users List</a>
                         </li>
                         <li>
                             <div class="dropdown">
@@ -23,7 +23,7 @@
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a href="#">Edit Info</a>
+                                        <a href="{{ route('users.edit', Auth::user()->id) }}">Edit Info</a>
                                     </li>
                                     <li class="dropdown-divider"></li>
                                     <li class="dropdown-item">
