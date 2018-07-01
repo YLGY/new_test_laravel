@@ -10579,3 +10579,80 @@ a.text-dark:focus {
   font-weight: 800;
 }
 
+.status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.status__left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 3.5rem;
+          flex: 0 0 3.5rem;
+}
+
+.status__gravatar {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.status__right {
+  padding-left: 1rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+
+.status__user,
+.status__timestamp {
+  display: block;
+}
+
+.status__timestamp {
+  margin-top: -5px;
+  margin-bottom: .5rem;
+  font-size: .8rem;
+  color: grey;
+}
+
+.status__delebtn {
+  font-size: .8rem;
+}
+
+.status__deleform {
+  position: absolute;
+  right: 0;
+  top: .8rem;
+}
+
+.weibo {
+  width: 100%;
+  text-align: center;
+}
+
+.weibo__group {
+  width: 100%;
+}
+
+.weibo__input {
+  width: 100%;
+}
+
+.weibo__submit {
+  float: right;
+  background: #374bdd;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: .5rem 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
